@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pocetak{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(/slika1.jpg);
+    width: 1920px;
+    height: 1080px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(196, 114, 82);
+}
+
+.tekst{
+    font-size: 30px;
+    letter-spacing: 30px;
+    margin-left: -200px;
+}
+
+.ul{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.ul li{
+    display: block;
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+.ul a{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(196, 114, 82);
+}
