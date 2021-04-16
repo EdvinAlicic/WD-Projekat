@@ -5,7 +5,7 @@
 
 .pocetak{
     font-family: Arial, Helvetica, sans-serif;
-    background: url(/slika1.jpg);
+    background: url(/Projekat/slika1.jpg);
     width: 1920px;
     height: 1080px;
     text-align: center;
@@ -36,10 +36,15 @@
     width: 200px;
     float: left;
     text-align: center;
+    margin: 0px 40px;
 }
 
 .ul a{
     font-size: 20px;
     font-weight: bold;
     color:rgb(196, 114, 82);
+}
+
+.ul a:hover{
+    color: rgb(250, 114, 82);
 }
