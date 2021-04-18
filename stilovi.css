@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0px;
     padding: 0px;
 }
@@ -72,226 +72,40 @@
     border-bottom: 5px solid rgb(134, 80, 59);
     color: rgb(196, 114, 82);
     min-height: 60vh;
-    justify-content: center;
-    display: flex;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-div .tekstMeni
-{
-    width: 300px;
-    height: 80px;
-    background-color: rgb(134, 80, 59);
-    margin-left: -150px;
-    margin-top: 250px;
-    display: flex;
-    float: left;
-    justify-content: center;
+article{
+    padding: 10px;
+    margin: 10px;
+    flex: 30%;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.tekstMeni
-{
-    color: #fff;
-    transform: rotate(-90deg);
-    font-size: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 30px;
-}
-
-div .torteMeni
-{
-    float: left;
-    display: inline-block;
-    margin-left: -100px;
-}
-
-.torteMeni
-{
-    font-size: 40px;
-    margin-top: 100px;
-}
-
-div .TorteUL
-{
-    float: left;
-    margin-left: -70px;
-}
-
-.TorteUL
-{
-    float: left;
     font-size: 20px;
-    padding-left: 0px;
-    margin-top: 170px;
+    border-left: 1px solid rgb(196, 114, 82);
+    border-right: 1px solid rgb(196, 114, 82);
+    border-top: 1px solid rgb(196, 114, 82);
 }
 
-.TorteLI
-{
-    padding-top: 10px;
+section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-div .KolaciMeni
-{
-    float: left;
-    display: inline-block;
-    margin-left: -255px;
+section h1{
+    font-size: 30px;
 }
 
-.KolaciMeni
-{
-    float: left;
+.naslovMeni{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
     font-size: 40px;
-    margin-top: 320px;
-}
-
-div .KolaciUL
-{
-    float: left;
-    margin-left: -230px;
-    margin-top: 390px;
-}
-
-.KolaciUL
-{
-    float: left;
-    font-size: 20px;
-    padding-left: 0px;
-}
-.KolaciLI
-{
-    padding-top: 10px; 
-}
-
-
-div .VruciNapitciMeni
-{
-    float: left;
-    display: inline-block;
-    margin-left: -30x;
-}
-
-.VruciNapitciMeni
-{
-    font-size: 40px;
-    margin-top: 100px;
-    padding-left: 150px;
-
-}
-
-div .VruciNapitciUL
-{
-    float: left;
-    margin-left: -190px;
-}
-
-.VruciNapitciUL
-{
-    float: left;
-    font-size: 20px;
-    padding-left: 0px;
-    margin-top: 170px;
-}
-
-.VruciNapitciLI
-{
-    padding-top: 10px;
-}
-
-div .SladoledMeni
-{
-    float: left;
-    display: inline-block;
-    margin-left: -255px;
-}
-
-.SladoledMeni
-{
-    float: left;
-    font-size: 40px;
-    margin-top: 320px;
-}
-
-div .SladoledUL
-{
-    float: left;
-    margin-left: -230px;
-    margin-top: 390px;
-}
-
-.SladoledUL
-{
-    float: left;
-    font-size: 20px;
-    padding-left: 0px;
-}
-.SladoledLI
-{
-    padding-top: 10px;
-}
-
-
-div .SlatkiPalacinciMeni
-{
-    float: left;
-    display: inline-block;
-    margin-left: -30x;
-}
-
-.SlatkiPalacinciMeni
-{
-    font-size: 40px;
-    margin-top: 100px;
-    padding-left: 150px;
-}
-
-div .SlatkiPalacinciUL
-{
-    float: left;
-    margin-left: -230px;
-}
-
-.SlatkiPalacinciUL
-{
-    float: left;
-    font-size: 20px;
-    padding-left: 0px;
-    margin-top: 170px;
-}
-
-.SlatkiPalacinciLI
-{
-    padding-top: 10px;
-}
-
-div .InKolMeni
-{
-    float: left;
-    display: inline-block;
-    margin-left: -255px;
-}
-
-.InKolMeni
-{
-    float: left;
-    font-size: 40px;
-    margin-top: 320px;
-}
-
-div .InKolUL
-{
-    float: left;
-    margin-left: -255px;
-    margin-top: 390px;
-}
-
-.InKolUL
-{
-    float: left;
-    font-size: 20px;
-    padding-left: 0px;
-}
-.InKolLI
-{
-    padding-top: 10px;
+    border-top: 1px solid rgb(196, 114, 82);
+    border-bottom: 1px solid rgb(196, 114, 82);
 }
