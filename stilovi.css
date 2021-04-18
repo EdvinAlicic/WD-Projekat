@@ -5,11 +5,10 @@
 
 .pocetak{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(168, 156, 156, 0.4)), url(Slika1.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(168, 156, 156, 0.4)), url(/Projekat/slika1.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
     align-items: center;
     display: flex;
@@ -68,53 +67,59 @@
     color: rgb(250, 114, 82);
 }
 
+.meni{
+    min-height: 60vh;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: rgb(196, 114, 82);
+    border-top: 5px solid rgb(134, 80, 59);
+    border-bottom: 5px solid rgb(134, 80, 59);
+}
+
 div .tekstMeni
 {
     width: 300px;
     height: 80px;
-    background-color: rgb(252, 234, 134);
-    margin-left: -120px;
+    background-color: rgb(134, 80, 59);
+    margin-left: -300px;
     margin-top: 250px;
     display: inline-block;
-    float:left;
-
-
+    float: left;
 }
 .tekstMeni
 {
-    color: rgb(196, 114, 82);;
+    color: #fff;
     transform: rotate(-90deg);
     font-size: 50px;
     padding-left: 80px;
-    padding-right: 30px;
+    padding-right: 80px;
     padding-top: 30px;
 }
 
 div .torteMeni
 {
-    float:left;
+    float: left;
     display: inline-block;
     margin-left: -100px;
 }
 
 .torteMeni
 {
-    color: rgb(196, 114, 82);
     font-size: 40px;
     margin-top: 100px;
 }
 
 div .TorteUL
 {
-    float:left;
+    float: left;
     margin-left: -70px;
-
 }
 
 .TorteUL
 {
-    float:left;
-    color: rgb(196, 114, 82);;
+    float: left;
     font-size: 20px;
     padding-left: 0px;
     margin-top: 170px;
@@ -134,24 +139,21 @@ div .KolaciMeni
 
 .KolaciMeni
 {
-    float:left;
-    color: rgb(196, 114, 82);
+    float: left;
     font-size: 40px;
     margin-top: 320px;
 }
 
 div .KolaciUL
 {
-    float:left;
+    float: left;
     margin-left: -230px;
     margin-top: 390px;
-
 }
 
 .KolaciUL
 {
-    float:left;
-    color: rgb(196, 114, 82);;
+    float: left;
     font-size: 20px;
     padding-left: 0px;
 }
@@ -163,14 +165,13 @@ div .KolaciUL
 
 div .VruciNapitciMeni
 {
-    float:left;
+    float: left;
     display: inline-block;
     margin-left: -30x;
 }
 
 .VruciNapitciMeni
 {
-    color: rgb(196, 114, 82);
     font-size: 40px;
     margin-top: 100px;
     padding-left: 150px;
@@ -178,15 +179,13 @@ div .VruciNapitciMeni
 
 div .VruciNapitciUL
 {
-    float:left;
+    float: left;
     margin-left: -190px;
-
 }
 
 .VruciNapitciUL
 {
-    float:left;
-    color: rgb(196, 114, 82);;
+    float: left;
     font-size: 20px;
     padding-left: 0px;
     margin-top: 170px;
@@ -206,24 +205,21 @@ div .SladoledMeni
 
 .SladoledMeni
 {
-    float:left;
-    color: rgb(196, 114, 82);
+    float: left;
     font-size: 40px;
     margin-top: 320px;
 }
 
 div .SladoledUL
 {
-    float:left;
+    float: left;
     margin-left: -230px;
     margin-top: 390px;
-
 }
 
 .SladoledUL
 {
-    float:left;
-    color: rgb(196, 114, 82);;
+    float: left;
     font-size: 20px;
     padding-left: 0px;
 }
@@ -235,14 +231,13 @@ div .SladoledUL
 
 div .SlatkiPalacinciMeni
 {
-    float:left;
+    float: left;
     display: inline-block;
     margin-left: -30x;
 }
 
 .SlatkiPalacinciMeni
 {
-    color: rgb(196, 114, 82);
     font-size: 40px;
     margin-top: 100px;
     padding-left: 150px;
@@ -250,15 +245,14 @@ div .SlatkiPalacinciMeni
 
 div .SlatkiPalacinciUL
 {
-    float:left;
+    float: left;
     margin-left: -230px;
 
 }
 
 .SlatkiPalacinciUL
 {
-    float:left;
-    color: rgb(196, 114, 82);;
+    float: left;
     font-size: 20px;
     padding-left: 0px;
     margin-top: 170px;
@@ -278,15 +272,14 @@ div .InKolMeni
 
 .InKolMeni
 {
-    float:left;
-    color: rgb(196, 114, 82);
+    float: left;
     font-size: 40px;
     margin-top: 320px;
 }
 
 div .InKolUL
 {
-    float:left;
+    float: left;
     margin-left: -255px;
     margin-top: 390px;
 
@@ -294,8 +287,7 @@ div .InKolUL
 
 .InKolUL
 {
-    float:left;
-    color: rgb(196, 114, 82);;
+    float: left;
     font-size: 20px;
     padding-left: 0px;
 }
