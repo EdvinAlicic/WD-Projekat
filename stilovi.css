@@ -67,7 +67,14 @@
     color: rgb(250, 114, 82);
 }
 
-
+.meni{
+    border-top: 5px solid rgb(134, 80, 59);
+    border-bottom: 5px solid rgb(134, 80, 59);
+    color: rgb(196, 114, 82);
+    min-height: 60vh;
+    justify-content: center;
+    display: flex;
+}
 
 div .tekstMeni
 {
@@ -76,15 +83,11 @@ div .tekstMeni
     background-color: rgb(134, 80, 59);
     margin-left: -150px;
     margin-top: 250px;
-    margin-bottom: 200px;
     display: flex;
     float: left;
     justify-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    border-top: 5px solid rgb(134, 80, 59);
-    border-bottom: 5px solid rgb(134, 80, 59);
-
 }
 .tekstMeni
 {
@@ -101,7 +104,6 @@ div .torteMeni
     float: left;
     display: inline-block;
     margin-left: -100px;
-    color: rgb(250, 114, 82);
 }
 
 .torteMeni
@@ -122,13 +124,11 @@ div .TorteUL
     font-size: 20px;
     padding-left: 0px;
     margin-top: 170px;
-    color: rgb(250, 114, 82);
 }
 
 .TorteLI
 {
     padding-top: 10px;
-    color: rgb(250, 114, 82);
 }
 
 div .KolaciMeni
@@ -143,7 +143,6 @@ div .KolaciMeni
     float: left;
     font-size: 40px;
     margin-top: 320px;
-    color: rgb(250, 114, 82);
 }
 
 div .KolaciUL
@@ -151,7 +150,6 @@ div .KolaciUL
     float: left;
     margin-left: -230px;
     margin-top: 390px;
-    color: rgb(250, 114, 82);
 }
 
 .KolaciUL
@@ -159,12 +157,10 @@ div .KolaciUL
     float: left;
     font-size: 20px;
     padding-left: 0px;
-    color: rgb(250, 114, 82);
 }
 .KolaciLI
 {
     padding-top: 10px; 
-    color: rgb(250, 114, 82);
 }
 
 
@@ -173,7 +169,6 @@ div .VruciNapitciMeni
     float: left;
     display: inline-block;
     margin-left: -30x;
-    color: rgb(250, 114, 82);
 }
 
 .VruciNapitciMeni
@@ -188,7 +183,6 @@ div .VruciNapitciUL
 {
     float: left;
     margin-left: -190px;
-    color: rgb(250, 114, 82);
 }
 
 .VruciNapitciUL
@@ -202,7 +196,6 @@ div .VruciNapitciUL
 .VruciNapitciLI
 {
     padding-top: 10px;
-    color: rgb(250, 114, 82);
 }
 
 div .SladoledMeni
@@ -210,7 +203,6 @@ div .SladoledMeni
     float: left;
     display: inline-block;
     margin-left: -255px;
-    color: rgb(250, 114, 82);
 }
 
 .SladoledMeni
@@ -225,7 +217,6 @@ div .SladoledUL
     float: left;
     margin-left: -230px;
     margin-top: 390px;
-    color: rgb(250, 114, 82);
 }
 
 .SladoledUL
@@ -237,7 +228,6 @@ div .SladoledUL
 .SladoledLI
 {
     padding-top: 10px;
-    color: rgb(250, 114, 82);
 }
 
 
@@ -246,7 +236,6 @@ div .SlatkiPalacinciMeni
     float: left;
     display: inline-block;
     margin-left: -30x;
-    color: rgb(250, 114, 82);
 }
 
 .SlatkiPalacinciMeni
@@ -260,8 +249,6 @@ div .SlatkiPalacinciUL
 {
     float: left;
     margin-left: -230px;
-    color: rgb(250, 114, 82);
-
 }
 
 .SlatkiPalacinciUL
@@ -275,7 +262,6 @@ div .SlatkiPalacinciUL
 .SlatkiPalacinciLI
 {
     padding-top: 10px;
-    color: rgb(250, 114, 82);
 }
 
 div .InKolMeni
@@ -283,7 +269,6 @@ div .InKolMeni
     float: left;
     display: inline-block;
     margin-left: -255px;
-    color: rgb(250, 114, 82);
 }
 
 .InKolMeni
@@ -298,8 +283,6 @@ div .InKolUL
     float: left;
     margin-left: -255px;
     margin-top: 390px;
-    color: rgb(250, 114, 82);
-
 }
 
 .InKolUL
@@ -307,10 +290,8 @@ div .InKolUL
     float: left;
     font-size: 20px;
     padding-left: 0px;
-    color: rgb(250, 114, 82);
 }
 .InKolLI
 {
     padding-top: 10px;
-    color: rgb(250, 114, 82);
 }
