@@ -5,7 +5,7 @@
 
 .pocetak{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(168, 156, 156, 0.4)), url(/Projekat/slika1.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(168, 156, 156, 0.4)), url(Slika1.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -66,4 +66,240 @@
 
 .paragraf a:hover{
     color: rgb(250, 114, 82);
+}
+
+div .tekstMeni
+{
+    width: 300px;
+    height: 80px;
+    background-color: rgb(252, 234, 134);
+    margin-left: -120px;
+    margin-top: 250px;
+    display: inline-block;
+    float:left;
+
+
+}
+.tekstMeni
+{
+    color: rgb(196, 114, 82);;
+    transform: rotate(-90deg);
+    font-size: 50px;
+    padding-left: 80px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+div .torteMeni
+{
+    float:left;
+    display: inline-block;
+    margin-left: -100px;
+}
+
+.torteMeni
+{
+    color: rgb(196, 114, 82);
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+div .TorteUL
+{
+    float:left;
+    margin-left: -70px;
+
+}
+
+.TorteUL
+{
+    float:left;
+    color: rgb(196, 114, 82);;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: 170px;
+}
+
+.TorteLI
+{
+    padding-top: 10px;
+}
+
+div .KolaciMeni
+{
+    float: left;
+    display: inline-block;
+    margin-left: -255px;
+}
+
+.KolaciMeni
+{
+    float:left;
+    color: rgb(196, 114, 82);
+    font-size: 40px;
+    margin-top: 320px;
+}
+
+div .KolaciUL
+{
+    float:left;
+    margin-left: -230px;
+    margin-top: 390px;
+
+}
+
+.KolaciUL
+{
+    float:left;
+    color: rgb(196, 114, 82);;
+    font-size: 20px;
+    padding-left: 0px;
+}
+.KolaciLI
+{
+    padding-top: 10px;
+}
+
+
+div .VruciNapitciMeni
+{
+    float:left;
+    display: inline-block;
+    margin-left: -30x;
+}
+
+.VruciNapitciMeni
+{
+    color: rgb(196, 114, 82);
+    font-size: 40px;
+    margin-top: 100px;
+    padding-left: 150px;
+}
+
+div .VruciNapitciUL
+{
+    float:left;
+    margin-left: -190px;
+
+}
+
+.VruciNapitciUL
+{
+    float:left;
+    color: rgb(196, 114, 82);;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: 170px;
+}
+
+.VruciNapitciLI
+{
+    padding-top: 10px;
+}
+
+div .SladoledMeni
+{
+    float: left;
+    display: inline-block;
+    margin-left: -255px;
+}
+
+.SladoledMeni
+{
+    float:left;
+    color: rgb(196, 114, 82);
+    font-size: 40px;
+    margin-top: 320px;
+}
+
+div .SladoledUL
+{
+    float:left;
+    margin-left: -230px;
+    margin-top: 390px;
+
+}
+
+.SladoledUL
+{
+    float:left;
+    color: rgb(196, 114, 82);;
+    font-size: 20px;
+    padding-left: 0px;
+}
+.SladoledLI
+{
+    padding-top: 10px;
+}
+
+
+div .SlatkiPalacinciMeni
+{
+    float:left;
+    display: inline-block;
+    margin-left: -30x;
+}
+
+.SlatkiPalacinciMeni
+{
+    color: rgb(196, 114, 82);
+    font-size: 40px;
+    margin-top: 100px;
+    padding-left: 150px;
+}
+
+div .SlatkiPalacinciUL
+{
+    float:left;
+    margin-left: -230px;
+
+}
+
+.SlatkiPalacinciUL
+{
+    float:left;
+    color: rgb(196, 114, 82);;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: 170px;
+}
+
+.SlatkiPalacinciLI
+{
+    padding-top: 10px;
+}
+
+div .InKolMeni
+{
+    float: left;
+    display: inline-block;
+    margin-left: -255px;
+}
+
+.InKolMeni
+{
+    float:left;
+    color: rgb(196, 114, 82);
+    font-size: 40px;
+    margin-top: 320px;
+}
+
+div .InKolUL
+{
+    float:left;
+    margin-left: -255px;
+    margin-top: 390px;
+
+}
+
+.InKolUL
+{
+    float:left;
+    color: rgb(196, 114, 82);;
+    font-size: 20px;
+    padding-left: 0px;
+}
+.InKolLI
+{
+    padding-top: 10px;
 }
