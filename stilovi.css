@@ -14,11 +14,15 @@ body{
     display: flex;
     justify-content: center;
     color: rgb(196, 114, 82);
+    
 }
 
-.tekst{
+.tekst
+{
     font-size: 40px;
     letter-spacing: 30px;
+    font-family: 'Charmonman', cursive;
+    text-shadow: 2px 2px 8px rgb(196, 114, 82);;
 }
 
 .ul{
@@ -100,10 +104,10 @@ section h1{
 .naslovMeni{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 350px;
+    margin: auto;
     background-color: rgb(196, 114, 82);
     color: white;
     letter-spacing: 1px;
-    margin-left: 770px;
     text-align: center;
     justify-content: center;
     margin-top: 50px;
@@ -117,3 +121,36 @@ section h1{
     border-left: 4px solid rgb(196, 114, 82);
     border-right: 4px solid rgb(196, 114, 82);
 }
+
+@media only screen  and (max-width:1000px)
+{
+    .tekst
+{
+    font-size: 30px;
+    letter-spacing: 20px;
+    font-family: 'Charmonman', cursive;
+}
+.paragraf{
+    
+    font-size: 20px;
+}
+}
+
+@media only screen  and (max-width:676px)
+{
+    .tekst
+{
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-family: 'Charmonman', cursive;
+}
+
+.ul li{
+    display: block;
+    width: 100px;
+    float: left;
+    text-align: center;
+    margin: 0px 40px;
+}
+}
+
