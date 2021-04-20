@@ -2,3 +2,104 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    background-color: rgba(134, 80, 59, 0.8);
+}
+
+form{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+fieldset{
+    height: 350px;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    color: rgb(196, 114, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(196, 114, 82);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+legend{
+    text-align: center;
+    border: 1px solid rgb(196, 114, 82);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=email], input[type=date], input[type=number], select, textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    padding: 5px 20px;
+    color: #fff;
+    border: 1px solid rgb(196, 114, 82);
+    background-color: rgb(196, 114, 82);
+    border-radius: 4px;
+}
+
+input[type=submit]:hover{
+    border: 1px solid rgb(250, 114, 82);
+    background-color: rgb(250, 114, 82);
+}
+
+.tekst{
+    margin-top: 50px;
+    min-height: 40vh;
+    width: 100%;
+    background-color: #fff;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(196, 114, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.tekst p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tekst h1{
+    margin-left: 20%;
+}
+
+#drugaForma{
+    min-height: 40vh;
+}
+
+select{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#drugaForma fieldset{
+    height: 450px;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    color: rgb(196, 114, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(196, 114, 82);
+    border-radius: 10px;
+    background-color: #fff;
+}
