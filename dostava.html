@@ -4,10 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kontakt</title>
     <link rel="stylesheet" href="dostava.css">
 </head>
 <body>
-    <h1>Treba ubaciti forme</h1>
+    <div id="prvaForma">
+    <form name="prvaForma" action="#" method="post">
+        <fieldset>
+            <legend>Kontaktirajte nas</legend>
+            <table>
+            <tr>
+                <td>Ime</td>
+                <td><input type="text" name="ime"/></td>
+            </tr>
+            <tr>
+                <td>Prezime</td>
+                <td><input type="text" name="prezime"/></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="email" name="email"/></td>
+            </tr>
+            <tr>
+                <td>Poruka</td>
+                <td><textarea name="opis" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Potvrdi">
+                </td>
+            </tr>
+            </table>
+        </fieldset>
+    </form>
+    </div>
+    <div class="tekst">
+        <h1>Kontaktirajte nas</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias esse inventore sit quo molestiae repellat, mollitia possimus doloremque natus? Architecto.</p>
+    </div>
+    <div id="drugaForma">
+        <form name="drugaForma" action="#" method="post">
+            <fieldset>
+                <legend>Dostava</legend>
+                <table>
+                <tr>
+                    <td>Ime</td>
+                    <td><input type="text" name="ime"/></td>
+                </tr>
+                <tr>
+                    <td>Prezime</td>
+                    <td><input type="text" name="prezime"/></td>
+                </tr>
+                <tr>
+                    <td>Broj telefona</td>
+                    <td><input type="text" name="telefon"/></td>
+                </tr>
+                <tr>
+                    <td>Adresa</td>
+                    <td><input type="text" name="adresa"/></td>
+                </tr>
+                <tr>
+                    <td>Datum</td>
+                    <td><input type="date" name="datum"/></td>
+                </tr>
+                <tr>
+                    <td>Izbor</td>
+                    <td>
+                        <select name="meni">
+                            <optgroup label="Kolači">
+                                <option value="1">Lorem ipsum</option>
+                                <option value="2">Lorem ipsum</option>
+                                <option value="3">Lorem ipsum</option>
+                                <option value="4">Lorem ipsum</option>
+                            </optgroup>
+                            <optgroup label="Torte">
+                                <option value="1">Lorem ipsum</option>
+                                <option value="2">Lorem ipsum</option>
+                                <option value="3">Lorem ipsum</option>
+                                <option value="4">Lorem ipsum</option>
+                            </optgroup>
+                            <optgroup label="Integralni kolači">
+                                <option value="1">Lorem ipsum</option>
+                                <option value="2">Lorem ipsum</option>
+                                <option value="3">Lorem ipsum</option>
+                                <option value="4">Lorem ipsum</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kolicina</td>
+                    <td><input type="number" name="kolicina"/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Naruči">
+                    </td>
+                </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    <div class="tekst">
+        <h1>Naručite Dostavu</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias esse inventore sit quo molestiae repellat, mollitia possimus doloremque natus? Architecto.</p>
+    </div>
 </body>
 </html>
