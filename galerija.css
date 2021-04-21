@@ -1,34 +1,20 @@
-*,
-*::after,
-*::before {
+*{
   margin: 0;
   padding: 0;
   box-sizing: inherit; 
 }
 
-html {
-  box-sizing: border-box;
-  font-size: 62.5%; 
-}
-
-body {
-  font-family: "Nunito", sans-serif;
-  color: #333;
-  font-weight: 300;
-  line-height: 1.6;
-}
-
-.wrapper {
-  width: 98%;
-  margin: 1rem auto; 
-  margin-top: 40px;
+.slike {
+  width: 80%;
+  margin: 1rem auto;
+  margin-top: 20px;
 }
 
 .galerija {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
-  grid-gap: 1.5rem; 
+  grid-gap: 0.5rem;
 }
 
 .galerija__img {
@@ -78,5 +64,47 @@ body {
   grid-column-end: 9;
   grid-row-start: 6;
   grid-row-end: 9;
+}
 
+.tekst{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6rem auto;
+}
+
+.naslov{
+    color: rgb(196, 114, 82);
+    text-align: center;
+    font-size: 30px;
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.naslov h1{
+    width: 400px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(196, 114, 82);
+}
+
+.paragraf{
+    min-height: 10vh;
+    color: rgb(196, 114, 82);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.snimak{
+    background-color: rgb(134, 80, 59);
+}
+
+video{
+    width: 80%;
+    margin: 4rem auto;
+    display: block;
 }
