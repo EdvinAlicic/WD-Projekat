@@ -2,3 +2,79 @@
     margin: 0px;
     padding: 0px;
 }
+
+.edvin, .hamza{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.edvin h1{
+    margin-top: 5%;
+    margin-bottom: 1em;
+    font-size: 50px;
+    color: rgb(196, 114, 82);
+}
+
+.edvin p{
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(196, 114, 82);
+}
+
+.hamza{
+    min-height: 50vh;
+    margin-top: 5%;
+    background-color: rgb(196, 114, 82);
+    color: #fff;
+}
+
+.hamza h1{
+    margin: auto;
+    padding-top: 2em;
+    margin-bottom: 1em;
+    font-size: 50px;
+    width: 10em;
+    color: #fff;
+}
+
+.hamza p{
+    font-size: 25px;
+}
+
+.informacije{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tekst{
+    min-height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(196, 114, 82);
+}
+
+.tekst h1{
+    margin-left: 20%;
+    font-size: 50px;
+}
+
+.tekst p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+.snimak{
+    background-color: rgb(196, 114, 82);
+}
+
+video{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
